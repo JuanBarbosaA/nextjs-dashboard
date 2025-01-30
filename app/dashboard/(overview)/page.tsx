@@ -4,7 +4,7 @@ import LatestInvoices from '@/app/ui/dashboard/latest-invoices';
 import { fetchCardData } from '@/app/lib/data';
 import { lusitana } from '@/app/ui/fonts';
 import { Suspense } from 'react';
-import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from '../ui/skeletons';
+import { CardsSkeleton, LatestInvoicesSkeleton, RevenueChartSkeleton } from '@/app/ui/skeletons';
 
 
  
