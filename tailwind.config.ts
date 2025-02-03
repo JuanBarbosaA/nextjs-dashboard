@@ -12,12 +12,19 @@ const config: Config = {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
       colors: {
+        "dark": "#1F1E2C",
+        "btn": "#2A283E",
+        "btn-hover": "#17D3D5",
+        "dark-blue": "#2F82EA",
         blue: {
           400: '#2589FE',
           500: '#0070F3',
           600: '#2F6FEB',
         },
       },
+      backgroundImage: {
+        "logo-gradient": "linear-gradient(to top, #2F82EA, #16D2D4)"
+      }
     },
     keyframes: {
       shimmer: {
